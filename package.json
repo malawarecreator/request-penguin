@@ -9,6 +9,7 @@
   "engines": {
     "vscode": "^1.97.0"
   },
+  "icon": "img/Crystal_128_penguin.png",
   "categories": [
     "Other"
   ],
