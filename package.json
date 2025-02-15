@@ -22,7 +22,11 @@
       },
       {
         "command": "makepost",
-        "title": "Request Penguin: Make POST Reqeust"
+        "title": "Request Penguin: Make POST Request"
+      },
+      {
+        "command": "makedel",
+        "title": "Request Penguin: Make DELETE Request"
       }
     ]
   },
