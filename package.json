@@ -2,6 +2,9 @@
   "name": "request-penguin",
   "displayName": "Request Penguin",
   "description": "sends http requests",
+  "repository": "https://github.com/malawarecreator/request-penguin.git",
+  "author": "Benjamin Liu",
+  "publisher": "BenjaminLiu",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.97.0"
@@ -16,6 +19,10 @@
       {
         "command": "makeget",
         "title": "Request Penguin: Make GET Request"
+      },
+      {
+        "command": "makepost",
+        "title": "Request Penguin: Make POST Reqeust"
       }
     ]
   },
