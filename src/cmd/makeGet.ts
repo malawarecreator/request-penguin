@@ -9,11 +9,11 @@ export async function makeGet() {
     if (addr) {
         fetch(addr).then((response) => {
             if (!response.ok) {
-                throw new Error(`Http error. Status: ${response.status}`);
+                throw new Error(`HTTP error. Status: ${response.status}`);
             }
             return response.json();
         }).then((responsedata) => {
-            vscode.window.showInformationMessage(JSON.stringify(responsedata));
+            vscode.window.showInformationMessage(`Success: ${JSON.stringify(responsedata)}`);
         }).catch((err) => {
             console.error(err);
             vscode.window.showErrorMessage(`Error: ${err.message}`);

@@ -27,7 +27,12 @@
       {
         "command": "makedel",
         "title": "Request Penguin: Make DELETE Request"
+      },
+      {
+        "command": "makeput",
+        "title": "Request Penguin: Make PUT Request"
       }
+
     ]
   },
   "scripts": {
