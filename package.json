@@ -5,7 +5,7 @@
   "repository": "https://github.com/malawarecreator/request-penguin.git",
   "author": "Benjamin Liu",
   "publisher": "BenjaminLiu",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.97.0"
   },
