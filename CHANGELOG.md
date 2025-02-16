@@ -14,3 +14,6 @@ All notable changes to the "request-penguin" extension will be documented in thi
     - add makedel and makeput
 - 0.0.4
     - docs
+
+- 0.0.5
+    - TRACE (through `curl`, TRACE is not supported on browsers anymore)
