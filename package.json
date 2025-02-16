@@ -32,6 +32,10 @@
       {
         "command": "makeput",
         "title": "Request Penguin: Make PUT Request"
+      },
+      {
+        "command": "maketrace",
+        "title": "Request Penguin: Make TRACE Request"
       }
 
     ]

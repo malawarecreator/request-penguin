@@ -3,7 +3,7 @@ import * as vscode from 'vscode';
 export async function makeGet() {
 
     const addr = await vscode.window.showInputBox({
-        placeHolder: "Enter URL for request",
+        placeHolder: "URL for request",
         prompt: "Enter a valid url"
     });
     if (addr) {
