@@ -36,6 +36,10 @@
       {
         "command": "maketrace",
         "title": "Request Penguin: Make TRACE Request"
+      },
+      {
+        "command": "getoptions",
+        "title": "Request Penguin: Get OPTIONS"
       }
 
     ]

@@ -1,4 +1,4 @@
 
 # Bounties (unpaid):
-- I need help with the TRACE protocol
+- I need help with the TRACE protocol (UPDATE, FINISHED)
 

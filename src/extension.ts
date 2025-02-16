@@ -5,6 +5,7 @@ import { makePost } from './cmd/makePost';
 import { makeDel } from './cmd/makeDel';
 import { makePut } from './cmd/makePut';
 import { makeTrace } from './cmd/makeTrace';
+import { getOptions } from './cmd/getOptions';
 
 export function activate(context: vscode.ExtensionContext) {
 
@@ -16,7 +17,8 @@ export function activate(context: vscode.ExtensionContext) {
 	let makeDelDisposable = vscode.commands.registerCommand("makedel", makeDel);
 	let makePutDisposable = vscode.commands.registerCommand("makeput", makePut);
 	let makeTraceDisposable = vscode.commands.registerCommand("maketrace", makeTrace);
-	context.subscriptions.push(makeGetDisposable, makePostDisposable, makeDelDisposable, makePutDisposable, makeTraceDisposable);
+	let getOptionsDisposable = vscode.commands.registerCommand("getoptions", getOptions);
+	context.subscriptions.push(makeGetDisposable, makePostDisposable, makeDelDisposable, makePutDisposable, makeTraceDisposable, getOptionsDisposable);
 
 }
 

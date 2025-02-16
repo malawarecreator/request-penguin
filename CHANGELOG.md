@@ -17,3 +17,4 @@ All notable changes to the "request-penguin" extension will be documented in thi
 
 - 0.0.5
     - TRACE (through `curl`, TRACE is not supported on browsers anymore)
+    - OPTIONS (through `curl`, no way you don't have curl installed on your PC)
