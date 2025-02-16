@@ -12,4 +12,5 @@ All notable changes to the "request-penguin" extension will be documented in thi
 - 0.0.3
     - fix shitty spelling
     - add makedel and makeput
-     
+- 0.0.4
+    - docs
